@@ -1,0 +1,105 @@
+/* Comentário */
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+}
+
+.page h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.productDetailContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #FFFCFC;
+    margin-left: -10vw;
+}
+
+.productDetailImage {
+    height: 50vh;
+    width: 450px;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 20vw;
+    height: 50vh;
+}
+
+.description .descriptionText {
+    line-height: 1.6;
+    text-align: justify;
+    z-index: 2;
+    margin-left: 5vw;
+    position: absolute;
+    width: 120%;
+    margin-left: 6vw;
+}
+
+.description .descriptionBackground {
+    position: absolute;
+    width: 150%;
+    height: 100%;
+    z-index: 1;
+    background-color: #302782;
+    right: -8vw;
+
+    -webkit-transform: skew(-5deg);
+    -ms-transform:     skew(-5deg);
+    transform:         skew(-5deg);
+}
+
+.similarProductsContainer {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.similarProductsContainer h1{
+    padding: 20px;
+    text-align: center;
+}
+
+.similarProductsImageContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4vh;
+}
+
+.contactContainer{
+    display: flex;
+    align-items: center;
+    width: 500px;
+}
+
+.contactContainer h3{
+    text-align: center;
+
+}
+
+.contactContainer button{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.contactContainer button img{
+    width: 60px;
+}
+
+.whatsapp button{
+    margin: 1 1em;
+    font-size: 2em;
+    border: none;
+    color: green;
+    background-color: white;
+}

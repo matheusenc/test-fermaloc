@@ -1,0 +1,9 @@
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page label {
+    padding: 15px;
+}

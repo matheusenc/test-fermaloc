@@ -1,0 +1,90 @@
+.bannerContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -41px;
+}
+
+.imgBanner{
+    width: 75%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.topProductsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vh;
+    margin-top: -2vh;
+}
+
+.topProductsComponentsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vh;
+}
+
+.buttonSeeMore {
+    background-color: #fbb035;
+    border: none;
+    border-radius: 15px;
+    padding: 20px 40px;
+    color: #FFFCFC;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    margin: 40px;
+}
+
+.buttonSeeMore:hover {
+    background-color: #F1A833;
+    transition: 0.2s;
+}
+
+.partnersContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4vh;
+    margin-bottom: 4vh;
+    margin-top: 2vh;
+}
+
+.logoPartners {
+    display:flex;
+    gap: 0 3vh;
+}
+
+.logoPartner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16vh;
+    height: 16vh;
+    padding: 1vh;
+    background-color: #FFFCFC;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.05);
+}
+
+.logoPartner img {
+    width: 90%;
+}
+
+.TextProducts {
+    text-decoration: underline;
+    color: black;
+    text-align: center;
+}
+
+.TextProducts:hover {
+    color: #fbb035;
+    text-align: center;
+    transform: scale(1.05);
+}

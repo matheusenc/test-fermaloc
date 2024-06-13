@@ -1,0 +1,44 @@
+footer{
+    display: flex;
+    background-color: #302782;
+    width: 100%;
+    justify-content: space-between;
+    height: 100px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.dados{
+    display: flex;
+    justify-content: left;
+    bottom: 0;
+    color: azure;
+    justify-content: space-between;
+}
+
+.mascote img{
+    height:160px;
+    position: absolute;
+    bottom: 0;
+    right: 35px;
+}
+
+.instagram img{
+    display: flex;
+    height: 40px;
+    border-right: 0;
+    padding-top: 20%;
+}
+
+.dados p {
+    text-indent: 2em;
+    text-align: justify;
+    padding-top: 5%;
+}
+
+.whatsapp img{
+    display: flex;
+    width: 10px;
+    height:10px;
+    padding-top: 70%;
+}
